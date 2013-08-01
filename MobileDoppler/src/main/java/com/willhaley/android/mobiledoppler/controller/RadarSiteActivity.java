@@ -78,7 +78,7 @@ public class RadarSiteActivity extends Activity {
             Bitmap bitmap = null;
             try {
                 if(url == null) {
-                    throw new Exception("Missing url");
+                    return null;
                 }
                 bitmap = BitmapFactory.decodeStream(url.openConnection().getInputStream());
             } catch(Exception exception) {

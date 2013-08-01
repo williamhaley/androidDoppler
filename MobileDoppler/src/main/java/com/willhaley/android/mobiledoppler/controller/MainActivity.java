@@ -136,6 +136,7 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
         }
     }
 
+    /*
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.about, menu);
@@ -148,4 +149,5 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
         startActivity(intent);
         return super.onMenuItemSelected(featureId, item);
     }
+    */
 }
