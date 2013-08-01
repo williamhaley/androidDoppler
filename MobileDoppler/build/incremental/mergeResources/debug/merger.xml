@@ -33,9 +33,9 @@
                 </string>
                 <string name="title_activity_details" >DetailsActivity
                 </string>
-                <string name="title_activity_about" >About
-                </string>
                 <string name="hello_world" >Hello world!
+                </string>
+                <string name="title_activity_about" >About
                 </string>
             </file>
             <file
@@ -74,6 +74,26 @@
                 qualifiers="xxhdpi"
                 type="drawable" />
             <file
+                name="radar_sites"
+                path="/home/will/Workspace/MobileDopplerProject/MobileDoppler/src/main/res/raw/radar_sites.json"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="radar_site_list_item"
+                path="/home/will/Workspace/MobileDopplerProject/MobileDoppler/src/main/res/layout/radar_site_list_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_about"
+                path="/home/will/Workspace/MobileDopplerProject/MobileDoppler/src/main/res/layout/activity_about.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_radar_site"
+                path="/home/will/Workspace/MobileDopplerProject/MobileDoppler/src/main/res/layout/activity_radar_site.xml"
+                qualifiers=""
+                type="layout" />
+            <file
                 name="activity_main"
                 path="/home/will/Workspace/MobileDopplerProject/MobileDoppler/src/main/res/layout/activity_main.xml"
                 qualifiers=""
@@ -90,8 +110,8 @@
                 </style>
             </file>
             <file
-                name="main"
-                path="/home/will/Workspace/MobileDopplerProject/MobileDoppler/src/main/res/menu/main.xml"
+                name="about"
+                path="/home/will/Workspace/MobileDopplerProject/MobileDoppler/src/main/res/menu/about.xml"
                 qualifiers=""
                 type="menu" />
             <file
@@ -110,46 +130,6 @@
                 <dimen name="activity_horizontal_margin" >128dp
                 </dimen>
             </file>
-            <file
-                name="radar_site"
-                path="/home/will/Workspace/MobileDopplerProject/MobileDoppler/src/main/res/menu/radar_site.xml"
-                qualifiers=""
-                type="menu" />
-            <file
-                name="details"
-                path="/home/will/Workspace/MobileDopplerProject/MobileDoppler/src/main/res/menu/details.xml"
-                qualifiers=""
-                type="menu" />
-            <file
-                name="activity_radar_site"
-                path="/home/will/Workspace/MobileDopplerProject/MobileDoppler/src/main/res/layout/activity_radar_site.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="radarSites"
-                path="/home/will/Workspace/MobileDopplerProject/MobileDoppler/src/main/res/raw/radarSites.json"
-                qualifiers=""
-                type="raw" />
-            <file
-                name="radar_sites"
-                path="/home/will/Workspace/MobileDopplerProject/MobileDoppler/src/main/res/raw/radar_sites.json"
-                qualifiers=""
-                type="raw" />
-            <file
-                name="radar_site_layout"
-                path="/home/will/Workspace/MobileDopplerProject/MobileDoppler/src/main/res/layout/radar_site_layout.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="about"
-                path="/home/will/Workspace/MobileDopplerProject/MobileDoppler/src/main/res/menu/about.xml"
-                qualifiers=""
-                type="menu" />
-            <file
-                name="activity_about"
-                path="/home/will/Workspace/MobileDopplerProject/MobileDoppler/src/main/res/layout/activity_about.xml"
-                qualifiers=""
-                type="layout" />
         </source>
         <source path="/home/will/Workspace/MobileDopplerProject/MobileDoppler/build/res/rs/debug" />
     </dataSet>
