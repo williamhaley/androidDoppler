@@ -7,5 +7,6 @@
     <string name="title_activity_details">DetailsActivity</string>
     <string name="title_activity_radar_site">Radar Site</string>
     <string name="title_activity_about">About</string>
+    <string name="text_about">This App is presented as-is with no warranty.  This App uses images provided by NOAA, the National Oceanic and Atmospheric Administration.  This App is not created by, affiliated with, or in any way endorsed by NOAA.  The App icon is courtesy of OpenClipArt.org</string>
 
 </resources>
