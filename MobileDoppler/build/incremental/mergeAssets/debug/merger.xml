@@ -2,10 +2,10 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="/home/will/Workspace/MobileDopplerProject/MobileDoppler/src/main/assets" />
+        <source path="/home/will/Workspace/androidDoppler/MobileDoppler/src/main/assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/home/will/Workspace/MobileDopplerProject/MobileDoppler/src/debug/assets" />
+        <source path="/home/will/Workspace/androidDoppler/MobileDoppler/src/debug/assets" />
     </dataSet>
 
 </merger>

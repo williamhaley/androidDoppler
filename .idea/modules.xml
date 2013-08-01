@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MobileDoppler/MobileDoppler.iml" filepath="$PROJECT_DIR$/MobileDoppler/MobileDoppler.iml" />
       <module fileurl="file://$PROJECT_DIR$/MobileDopplerProject.iml" filepath="$PROJECT_DIR$/MobileDopplerProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidDoppler.iml" filepath="$PROJECT_DIR$/androidDoppler.iml" />
     </modules>
   </component>
 </project>
