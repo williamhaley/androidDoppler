@@ -1,4 +1,4 @@
-androidMobileDoppler
+androidDoppler
 ====================
 
-Android Mobile Doppler Radar
+Android Doppler Radar
