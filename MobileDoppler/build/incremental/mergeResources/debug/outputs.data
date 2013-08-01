@@ -1,0 +1,17 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1375321300000 5384 6fe4461cbb5ad648a0fbe336df0d359a574168b0 /home/will/Workspace/MobileDopplerProject/MobileDoppler/build/res/all/debug/drawable-hdpi/ic_launcher.png
+1375330259000 764 ed9c95a7e56f8d9b1f914a964df4311878437547 /home/will/Workspace/MobileDopplerProject/MobileDoppler/build/res/all/debug/layout/activity_about.xml
+1375321300000 3340 7ba57f954c336a2d1da61910a962885a3976d2f1 /home/will/Workspace/MobileDopplerProject/MobileDoppler/build/res/all/debug/drawable-mdpi/ic_launcher.png
+1375330929000 2067 39134e61a202b6a666811c4f4a01ebd8cec11e36 /home/will/Workspace/MobileDopplerProject/MobileDoppler/build/res/all/debug/layout/activity_radar_site.xml
+1375321300000 332 ed1489213e552807e61b69a74456b7541ab28074 /home/will/Workspace/MobileDopplerProject/MobileDoppler/build/res/all/debug/values-v14/values.xml
+1375321300000 7246 9a9f681b46faf7c9d5be6d4624e5b27a289f3f2d /home/will/Workspace/MobileDopplerProject/MobileDoppler/build/res/all/debug/drawable-xhdpi/ic_launcher.png
+1375329235000 11224 28f7c64974eb5221ec42a712e9ab6a15f5b4cc51 /home/will/Workspace/MobileDopplerProject/MobileDoppler/build/res/all/debug/raw/radar_sites.json
+1375330259000 1311 c89c1d3f0994730c19e0df793b2759df4e293f43 /home/will/Workspace/MobileDopplerProject/MobileDoppler/build/res/all/debug/values/values.xml
+1375329888000 839 184881cef7fb44eed6f9089868ffcb673912fd72 /home/will/Workspace/MobileDopplerProject/MobileDoppler/build/res/all/debug/layout/radar_site_layout.xml
+1375321686000 864 42b8b2bc0934311cab9c1af6ef88200d7b36ca2b /home/will/Workspace/MobileDopplerProject/MobileDoppler/build/res/all/debug/layout/activity_main.xml
+1375321300000 11879 f89bb0e0dcbc74c1397994b5816d37f60ad27571 /home/will/Workspace/MobileDopplerProject/MobileDoppler/build/res/all/debug/drawable-xxhdpi/ic_launcher.png
+1375321300000 318 e12da0f49b7b5476d0bcb53a0b940c100ea3e287 /home/will/Workspace/MobileDopplerProject/MobileDoppler/build/res/all/debug/values-v11/values.xml
+1375321300000 249 4ee2fe1de6dfb5706cf9d27f72bdef4418085848 /home/will/Workspace/MobileDopplerProject/MobileDoppler/build/res/all/debug/values-sw720dp-land/values.xml
+1375330259000 352 921fc5abd6a33f3f9652f0eb81005dc378a2bd94 /home/will/Workspace/MobileDopplerProject/MobileDoppler/build/res/all/debug/menu/about.xml

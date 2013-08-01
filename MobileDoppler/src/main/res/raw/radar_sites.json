@@ -1,0 +1,594 @@
+[
+    {
+        "siteId": "ABR",
+        "area": "Aberdeen, SD"
+    },
+    {
+        "siteId": "ABX",
+        "area": "La Mesita Negra\/Albuquerque, NM"
+    },
+    {
+        "siteId": "AHG",
+        "area": "Anchorage\/Kenei, AK"
+    },
+    {
+        "siteId": "AIH",
+        "area": "Middleton Islands, AK"
+    },
+    {
+        "siteId": "AKQ",
+        "area": "Wakefield\/Norfolk-Richmond, VA"
+    },
+    {
+        "siteId": "AMA",
+        "area": "Amarillo, TX"
+    },
+    {
+        "siteId": "AMX",
+        "area": "Miami, FL"
+    },
+    {
+        "siteId": "APX",
+        "area": "Alpena\/Gaylord, MI"
+    },
+    {
+        "siteId": "ARX",
+        "area": "LaCrosse, WI"
+    },
+    {
+        "siteId": "ATX",
+        "area": "Everett\/Seattle-Tacoma, WA"
+    },
+    {
+        "siteId": "BBX",
+        "area": "Beale AFB, CA"
+    },
+    {
+        "siteId": "BGM",
+        "area": "Binghamton, NY"
+    },
+    {
+        "siteId": "BHX",
+        "area": "Eureka, CA"
+    },
+    {
+        "siteId": "BIS",
+        "area": "Bismarck, ND"
+    },
+    {
+        "siteId": "BLX",
+        "area": "Billings, MT"
+    },
+    {
+        "siteId": "BMX",
+        "area": "Shelby County AP\/Birmingham, AL"
+    },
+    {
+        "siteId": "BOX",
+        "area": "Taunton\/Boston, MA"
+    },
+    {
+        "siteId": "BRO",
+        "area": "Brownsville, TX"
+    },
+    {
+        "siteId": "BUF",
+        "area": "Buffalo, NY"
+    },
+    {
+        "siteId": "BYX",
+        "area": "Key West, FL"
+    },
+    {
+        "siteId": "CAE",
+        "area": "Columbia, SC"
+    },
+    {
+        "siteId": "CBW",
+        "area": "Caribou (Loring AFB), ME"
+    },
+    {
+        "siteId": "CBX",
+        "area": "Boise, ID"
+    },
+    {
+        "siteId": "CCX",
+        "area": "Moshannon St Forest\/State College, PA"
+    },
+    {
+        "siteId": "CLE",
+        "area": "Cleveland, OH"
+    },
+    {
+        "siteId": "CLX",
+        "area": "Charleston, SC"
+    },
+    {
+        "siteId": "CRP",
+        "area": "Corpus Christi, TX"
+    },
+    {
+        "siteId": "CXX",
+        "area": "Burlington, VT"
+    },
+    {
+        "siteId": "CYS",
+        "area": "Cheyenne, WY"
+    },
+    {
+        "siteId": "DAX",
+        "area": "McClellan AFB\/Sacremento, CA"
+    },
+    {
+        "siteId": "DDC",
+        "area": "Dodge City, KS"
+    },
+    {
+        "siteId": "DFX",
+        "area": "Bracketville\/Laughlin AFB, TX"
+    },
+    {
+        "siteId": "DGX",
+        "area": "Jackson\/Brandon, MS"
+    },
+    {
+        "siteId": "DIX",
+        "area": "Fort Dix, NJ\/Philadelphia, PA"
+    },
+    {
+        "siteId": "DLH",
+        "area": "Duluth, MN"
+    },
+    {
+        "siteId": "DMX",
+        "area": "Acorn Valley\/Des Moines, IA"
+    },
+    {
+        "siteId": "DOX",
+        "area": "Dover AFB, DE"
+    },
+    {
+        "siteId": "DTX",
+        "area": "Pontiac\/Detroit, MI"
+    },
+    {
+        "siteId": "DVN",
+        "area": "Davenport\/Quad Cities, IA"
+    },
+    {
+        "siteId": "DYX",
+        "area": "Moran\/Dyess AFB, TX"
+    },
+    {
+        "siteId": "EAX",
+        "area": "Pleasant Hill\/KC, MO"
+    },
+    {
+        "siteId": "EMX",
+        "area": "Tucson, AZ"
+    },
+    {
+        "siteId": "ENX",
+        "area": "East Berne\/Albany, NY"
+    },
+    {
+        "siteId": "EOX",
+        "area": "Ft. Rucker, AL"
+    },
+    {
+        "siteId": "EPZ",
+        "area": "El Paso, TX"
+    },
+    {
+        "siteId": "ESX",
+        "area": "Las Vegas, NV"
+    },
+    {
+        "siteId": "EVX",
+        "area": "Red Bay\/Eglin AFB, FL"
+    },
+    {
+        "siteId": "EWX",
+        "area": "New Braunfels AP\/Austin-San Ant, TX"
+    },
+    {
+        "siteId": "EYX",
+        "area": "Edwards AFB, CA"
+    },
+    {
+        "siteId": "FCX",
+        "area": "Roanoke, VA"
+    },
+    {
+        "siteId": "FDR",
+        "area": "Frederick, OK"
+    },
+    {
+        "siteId": "FDX",
+        "area": "Field Village\/Cannon AFB, NM"
+    },
+    {
+        "siteId": "FFC",
+        "area": "Peach Tree City\/Atlanta, GA"
+    },
+    {
+        "siteId": "FSD",
+        "area": "Sioux Falls, SD"
+    },
+    {
+        "siteId": "FSX",
+        "area": "Flagstaff, AZ"
+    },
+    {
+        "siteId": "FTG",
+        "area": "Front Range AP\/Denver, CO"
+    },
+    {
+        "siteId": "FWS",
+        "area": "Spinks AP\/Dallas-Ft Worth, TX"
+    },
+    {
+        "siteId": "GGW",
+        "area": "Glasgow, MT"
+    },
+    {
+        "siteId": "GJX",
+        "area": "Grand Junction, CO"
+    },
+    {
+        "siteId": "GLD",
+        "area": "Goodland, KS"
+    },
+    {
+        "siteId": "GRB",
+        "area": "Green Bay, WI"
+    },
+    {
+        "siteId": "GRK",
+        "area": "Central Texas (Ft Hood), TX"
+    },
+    {
+        "siteId": "GRR",
+        "area": "Grand Rapids\/Muskegon, MI"
+    },
+    {
+        "siteId": "GSP",
+        "area": "Greenville\/Spartanburg (Greer), SC"
+    },
+    {
+        "siteId": "GWX",
+        "area": "Columbus AFB, MS"
+    },
+    {
+        "siteId": "GYX",
+        "area": "Gray\/Portland, ME"
+    },
+    {
+        "siteId": "HDX",
+        "area": "Holloman AFB, NM"
+    },
+    {
+        "siteId": "HGX",
+        "area": "League City\/Houston, TX"
+    },
+    {
+        "siteId": "HKI",
+        "area": "South Kauai, HI"
+    },
+    {
+        "siteId": "HKM",
+        "area": "Kohala, HI"
+    },
+    {
+        "siteId": "HMO",
+        "area": "Molokai, HI"
+    },
+    {
+        "siteId": "HNX",
+        "area": "Hanford AP\/San Joaquin Valley, CA"
+    },
+    {
+        "siteId": "HPX",
+        "area": "Ft. Campbell, KY"
+    },
+    {
+        "siteId": "HTX",
+        "area": "N.E.\/Hytop, AL"
+    },
+    {
+        "siteId": "HWA",
+        "area": "South Hawaii, HI"
+    },
+    {
+        "siteId": "ICT",
+        "area": "Wichita, KS"
+    },
+    {
+        "siteId": "ICX",
+        "area": "Cedar City, UT"
+    },
+    {
+        "siteId": "ILN",
+        "area": "Wilmington\/Cincinnati, OH"
+    },
+    {
+        "siteId": "ILX",
+        "area": "Central (Springfield), IL"
+    },
+    {
+        "siteId": "IND",
+        "area": "Indianapolis, IN"
+    },
+    {
+        "siteId": "INX",
+        "area": "Shreck Farm\/Tulsa, OK"
+    },
+    {
+        "siteId": "IWA",
+        "area": "Williams AFB\/Phoenix, AZ"
+    },
+    {
+        "siteId": "IWX",
+        "area": "Webster, IN"
+    },
+    {
+        "siteId": "JAX",
+        "area": "Jacksonville, FL"
+    },
+    {
+        "siteId": "JGX",
+        "area": "Robins AFB, GA"
+    },
+    {
+        "siteId": "JKL",
+        "area": "Jackson, KY"
+    },
+    {
+        "siteId": "JUA",
+        "area": "San Juan, PR"
+    },
+    {
+        "siteId": "LBB",
+        "area": "Lubbock, TX"
+    },
+    {
+        "siteId": "LCH",
+        "area": "Lake Charles, LA"
+    },
+    {
+        "siteId": "LIX",
+        "area": "Slidell AP\/New Orleans, LA"
+    },
+    {
+        "siteId": "LNX",
+        "area": "North Platte, NE"
+    },
+    {
+        "siteId": "LOT",
+        "area": "Chicago, IL"
+    },
+    {
+        "siteId": "LRX",
+        "area": "Elko, NV"
+    },
+    {
+        "siteId": "LSX",
+        "area": "St Charles City\/St Louis, MO"
+    },
+    {
+        "siteId": "LTX",
+        "area": "Shallotte\/Wilmington, NC"
+    },
+    {
+        "siteId": "LVX",
+        "area": "Ft Knox Mil Res\/Louisville, KY"
+    },
+    {
+        "siteId": "LWX",
+        "area": "Sterling, VA\/Washington DC"
+    },
+    {
+        "siteId": "LZK",
+        "area": "Little Rock, AR"
+    },
+    {
+        "siteId": "MAF",
+        "area": "Midland\/Odessa, TX"
+    },
+    {
+        "siteId": "MAX",
+        "area": "Medford, OR"
+    },
+    {
+        "siteId": "MBX",
+        "area": "Minot AFB, ND"
+    },
+    {
+        "siteId": "MHX",
+        "area": "Newport\/Morehead City, NC"
+    },
+    {
+        "siteId": "MKX",
+        "area": "Sullivan Township\/Milwaukee, WI"
+    },
+    {
+        "siteId": "MLB",
+        "area": "Melbourne, FL"
+    },
+    {
+        "siteId": "MOB",
+        "area": "Mobile, AL"
+    },
+    {
+        "siteId": "MPX",
+        "area": "Chanhassen Township\/Minn-St.P, MN"
+    },
+    {
+        "siteId": "MQT",
+        "area": "Marquette, MI"
+    },
+    {
+        "siteId": "MRX",
+        "area": "Knoxville, TN"
+    },
+    {
+        "siteId": "MSX",
+        "area": "Pt Six Mtn\/Missoula, MT"
+    },
+    {
+        "siteId": "MTX",
+        "area": "Promontory Pt\/Salt Lake City, UT"
+    },
+    {
+        "siteId": "MXX",
+        "area": "Carrville\/Maxwell AFB, AL"
+    },
+    {
+        "siteId": "MUX",
+        "area": "Mt Umunhum\/San Francisco, CA"
+    },
+    {
+        "siteId": "MVX",
+        "area": "Fargo, ND"
+    },
+    {
+        "siteId": "NKX",
+        "area": "San Diego, CA"
+    },
+    {
+        "siteId": "NQA",
+        "area": "Millington NAS\/Memphis, TN"
+    },
+    {
+        "siteId": "OAX",
+        "area": "Omaha, NE"
+    },
+    {
+        "siteId": "OHX",
+        "area": "Old Hickory Mt\/Nashville, TN"
+    },
+    {
+        "siteId": "OKX",
+        "area": "Brookhaven\/New York City, NY"
+    },
+    {
+        "siteId": "OTX",
+        "area": "Spokane, WA"
+    },
+    {
+        "siteId": "PAH",
+        "area": "Paducah, KY"
+    },
+    {
+        "siteId": "PBZ",
+        "area": "Coraopolis\/Pittsburgh, PA"
+    },
+    {
+        "siteId": "PDT",
+        "area": "Pendleton, OR"
+    },
+    {
+        "siteId": "POE",
+        "area": "Ft Polk, LA"
+    },
+    {
+        "siteId": "PUX",
+        "area": "Pueblo, CO"
+    },
+    {
+        "siteId": "RAX",
+        "area": "Triple West AP\/Raleigh-Durham, NC"
+    },
+    {
+        "siteId": "RIW",
+        "area": "Riverton, WY"
+    },
+    {
+        "siteId": "RGX",
+        "area": "Virginia Peak\/Reno, NV"
+    },
+    {
+        "siteId": "RLX",
+        "area": "Charleston, WV"
+    },
+    {
+        "siteId": "RTX",
+        "area": "Portland, OR"
+    },
+    {
+        "siteId": "SFX",
+        "area": "Pocatello\/Idaho falls, ID"
+    },
+    {
+        "siteId": "SGF",
+        "area": "Springfield, MO"
+    },
+    {
+        "siteId": "SHV",
+        "area": "Shreveport, LA"
+    },
+    {
+        "siteId": "SJT",
+        "area": "San Angelo, TX"
+    },
+    {
+        "siteId": "SOX",
+        "area": "Santa Ana Mountains\/March AFB, CA"
+    },
+    {
+        "siteId": "SRX",
+        "area": "Western Arkansas\/Ft. Smith, AR"
+    },
+    {
+        "siteId": "TBW",
+        "area": "Ruskin\/Tampa Bay, FL"
+    },
+    {
+        "siteId": "TFX",
+        "area": "Great Falls, MT"
+    },
+    {
+        "siteId": "TLH",
+        "area": "Tallahassee, FL"
+    },
+    {
+        "siteId": "TLX",
+        "area": "Twin Lakes\/Oklahoma City, OK"
+    },
+    {
+        "siteId": "TWX",
+        "area": "Wabaunsee County\/Topeka, KS"
+    },
+    {
+        "siteId": "TYX",
+        "area": "Ft Drum AFB\/Montague, NY"
+    },
+    {
+        "siteId": "UDX",
+        "area": "Rapid City, SD"
+    },
+    {
+        "siteId": "UEX",
+        "area": "Grand Island, NE"
+    },
+    {
+        "siteId": "VAX",
+        "area": "Moody AFB, GA"
+    },
+    {
+        "siteId": "VBX",
+        "area": "Vandenberg AFB, CA"
+    },
+    {
+        "siteId": "VNX",
+        "area": "Vance AFB, OK"
+    },
+    {
+        "siteId": "VTX",
+        "area": "Sulphur Mtn\/Los Angeles, CA"
+    },
+    {
+        "siteId": "YUX",
+        "area": "Yuma, AZ"
+    }
+]

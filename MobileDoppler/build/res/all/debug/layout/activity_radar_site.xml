@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".RadarSiteActivity">
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/topographyImageView"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"/>
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/countyImageView"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"/>
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/cityImageView"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:focusableInTouchMode="false"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"/>
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/weatherImageView"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"/>
+
+</RelativeLayout>
+<!-- From: file:/home/will/Workspace/MobileDopplerProject/MobileDoppler/src/main/res/layout/activity_radar_site.xml -->

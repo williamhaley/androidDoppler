@@ -1,0 +1,21 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1375329727000 908 112d6568cab7e16626e6254b714b98744dd7ecbf /home/will/Workspace/MobileDopplerProject/MobileDoppler/build/classes/debug/com/willhaley/android/mobiledoppler/R.class
+1375330263000 662 4eb85f8b74794f3e2aa8f709bc3033a99af27e0b /home/will/Workspace/MobileDopplerProject/MobileDoppler/build/classes/debug/com/willhaley/android/mobiledoppler/R$string.class
+1375330263000 876 ecc0d0c8bee6cc0edbb1ef83a0620e59ce0f098b /home/will/Workspace/MobileDopplerProject/MobileDoppler/build/classes/debug/com/willhaley/android/mobiledoppler/controller/AboutActivity.class
+1375330414000 5312 e8d378852b80d8c9f57c05202f85bcc0c92a1dbb /home/will/Workspace/MobileDopplerProject/MobileDoppler/build/classes/debug/com/willhaley/android/mobiledoppler/controller/MainActivity.class
+1375330263000 443 bb5a8ee56b6309933592d8e2ac1e4fc8d9b92564 /home/will/Workspace/MobileDopplerProject/MobileDoppler/build/classes/debug/com/willhaley/android/mobiledoppler/R$raw.class
+1375329360000 417 6d490d99ccc26be5d2f4eb7a6422a7c081fe90aa /home/will/Workspace/MobileDopplerProject/MobileDoppler/build/classes/debug/com/willhaley/android/mobiledoppler/model/RadarSite.class
+1375330263000 2157 274c0e3b2a94014abea28ab28910b404c2c2d5ca /home/will/Workspace/MobileDopplerProject/MobileDoppler/build/classes/debug/com/willhaley/android/mobiledoppler/controller/MainActivity$RadarSitesAdapter.class
+1369432937000 490914 3fe75433da602500cc71fcc1c46e5550291dd45d /home/will/Applications/android-studio/sdk/extras/android/m2repository/com/android/support/support-v4/13.0.0/support-v4-13.0.0.jar
+1375330263000 576 59e3d1bc153320d6d4f32154f6b7ed56166f3644 /home/will/Workspace/MobileDopplerProject/MobileDoppler/build/classes/debug/com/willhaley/android/mobiledoppler/R$layout.class
+1375330263000 440 edf87cd3b42e5a1330707f2844108efe7d6e6015 /home/will/Workspace/MobileDopplerProject/MobileDoppler/build/classes/debug/com/willhaley/android/mobiledoppler/R$menu.class
+1375326912000 512 6cbfb7b496e8561b494758e1f493b6d31eeff266 /home/will/Workspace/MobileDopplerProject/MobileDoppler/build/classes/debug/com/willhaley/android/mobiledoppler/R$dimen.class
+1375321301000 391 813dd62b77eda41f85939f4743dc6c8ef9bbda6f /home/will/Workspace/MobileDopplerProject/MobileDoppler/build/classes/debug/com/willhaley/android/mobiledoppler/R$attr.class
+1375329727000 482 8d19ca2de80315d31f09077948381a6ebe92a594 /home/will/Workspace/MobileDopplerProject/MobileDoppler/build/classes/debug/com/willhaley/android/mobiledoppler/R$style.class
+1375321301000 379 0d6f7d83e41674e1977adf8b2b72b787a9922166 /home/will/Workspace/MobileDopplerProject/MobileDoppler/build/classes/debug/com/willhaley/android/mobiledoppler/BuildConfig.class
+1375329727000 696 533a939be2e68f00e3d5a3b300b19409fa4e6ab9 /home/will/Workspace/MobileDopplerProject/MobileDoppler/build/classes/debug/com/willhaley/android/mobiledoppler/R$id.class
+1375330263000 2639 bbb4cf03e9be842778a83b30992349acc0ec004c /home/will/Workspace/MobileDopplerProject/MobileDoppler/build/classes/debug/com/willhaley/android/mobiledoppler/controller/RadarSiteActivity.class
+1375330263000 2244 a5e5386a963f91759a9339a82108fa3d0b1a187b /home/will/Workspace/MobileDopplerProject/MobileDoppler/build/classes/debug/com/willhaley/android/mobiledoppler/controller/RadarSiteActivity$ImageDownloadAsyncTask.class
+1375321301000 458 c1370a215834df06469357159d921d1fe602c343 /home/will/Workspace/MobileDopplerProject/MobileDoppler/build/classes/debug/com/willhaley/android/mobiledoppler/R$drawable.class
