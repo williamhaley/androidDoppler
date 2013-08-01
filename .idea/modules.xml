@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MobileDoppler/MobileDoppler.iml" filepath="$PROJECT_DIR$/MobileDoppler/MobileDoppler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MobileDopplerProject.iml" filepath="$PROJECT_DIR$/MobileDopplerProject.iml" />
+    </modules>
+  </component>
+</project>
+
