@@ -12,8 +12,6 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:label="@string/title_activity_details" android:name="com.willhaley.android.mobiledoppler.DetailsActivity">
-        </activity>
         <activity android:label="@string/title_activity_radar_site" android:name="com.willhaley.android.mobiledoppler.controller.RadarSiteActivity">
         </activity>
         <activity android:label="@string/title_activity_about" android:name="com.willhaley.android.mobiledoppler.controller.AboutActivity">

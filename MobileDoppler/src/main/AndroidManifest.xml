@@ -25,10 +25,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.willhaley.android.mobiledoppler.DetailsActivity"
-            android:label="@string/title_activity_details" >
-        </activity>
-        <activity
             android:name="com.willhaley.android.mobiledoppler.controller.RadarSiteActivity"
             android:label="@string/title_activity_radar_site" >
         </activity>
