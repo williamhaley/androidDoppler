@@ -45,6 +45,7 @@ public final class R {
     }
     public static final class raw {
         public static final int radar_sites=0x7f040000;
+        public static final int territories=0x7f040001;
     }
     public static final class string {
         /**  From: file:/home/will/Workspace/androidDoppler/MobileDoppler/src/main/res/values/strings.xml 
