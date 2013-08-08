@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -20,6 +21,7 @@ import android.widget.TextView;
 
 import com.willhaley.android.mobiledoppler.R;
 import com.willhaley.android.mobiledoppler.model.RadarSite;
+import com.willhaley.android.mobiledoppler.model.RadarSiteFactory;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -30,6 +32,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class MainActivity extends Activity implements AdapterView.OnItemClickListener, TextWatcher {
 
@@ -45,6 +48,7 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
         context = this;
 
         loadRadarSites();
+        validateRadarSites(); //TODO this should probably be broken out to a unit test
 
         radarSitesAdapter = new RadarSitesAdapter(radarSites);
         ListView listView = (ListView) findViewById(R.id.listView);
@@ -66,8 +70,8 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
     @Override
     public void afterTextChanged(Editable editable) { }
 
-    private void loadRadarSites() {
-        InputStream inputStream = getResources().openRawResource(R.raw.radar_sites);
+    private String getJSONStringForResourceId(int resourceId) {
+        InputStream inputStream = getResources().openRawResource(resourceId);
         BufferedReader streamReader = null;
         try {
             streamReader = new BufferedReader(new InputStreamReader(inputStream, "UTF-8"));
@@ -84,12 +88,57 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
         } catch(Exception exception) {
 
         }
+        return responseStringBuilder.toString();
+    }
 
+    /**
+     * Ensure that all of the radar sites have required and valid data
+     * TODO this should be a test
+     */
+    private void validateRadarSites() {
+        String[] states = loadTerritories();
+        for(RadarSite radarSite : radarSites) {
+            System.out.println(radarSite.area);
+            if(radarSite.area == null) {
+                Log.e("Error", "Area missing");
+            }
+            if(radarSite.siteId == null) {
+                Log.e("Error", "site id missing");
+            }
+            if(radarSite.territory == null) {
+                Log.e("Error", "Territory missing");
+            }
+            int index = java.util.Arrays.asList(states).indexOf(radarSite.territory);
+            if(index < 0) {
+                Log.e("Error", "Not a valid territory");
+            }
+        }
+    }
+
+    private String[] loadTerritories() {
+        JSONArray jsonTerritories = null; //TODO Am I consistent in naming?  jsonVar or varJSON ?
+        try {
+            jsonTerritories = new JSONArray(getJSONStringForResourceId(R.raw.territories));
+        } catch(JSONException exception) {
+            exception.printStackTrace();
+        }
+        String[] states = new String[jsonTerritories.length()];
+        for(int index = 0; index < jsonTerritories.length(); index++) {
+            try {
+                states[index] = jsonTerritories.getString(index);
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+        }
+        return states;
+    }
+
+    private void loadRadarSites() {
         JSONArray jsonRadarSites = null;
         try {
-            jsonRadarSites = new JSONArray(responseStringBuilder.toString());
+            jsonRadarSites = new JSONArray(getJSONStringForResourceId(R.raw.radar_sites));
         } catch(JSONException exception) {
-
+            exception.printStackTrace();
         }
 
         if(jsonRadarSites != null) {
@@ -105,15 +154,10 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
             } catch (JSONException e) {
 
             }
-            RadarSite radarSite = new RadarSite();
-            try {
-                radarSite.siteId = jsonRadarSite.getString("siteId");
-                radarSite.area = jsonRadarSite.getString("area");
-            } catch (JSONException e) {
-
-            }
+            RadarSite radarSite = RadarSiteFactory.createRadarSiteWithJSON(jsonRadarSite);
             radarSites[index] = radarSite;
         }
+        Arrays.sort(radarSites);
     }
 
     @Override
@@ -185,6 +229,8 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
                         if(radarSite.siteId.toLowerCase().contains(constraint)) {
                             filteredSites.add(radarSite);
                         } else if(radarSite.area.toLowerCase().contains(constraint)) {
+                            filteredSites.add(radarSite);
+                        } else if(radarSite.territory.toLowerCase().contains(constraint)) {
                             filteredSites.add(radarSite);
                         }
                     }
