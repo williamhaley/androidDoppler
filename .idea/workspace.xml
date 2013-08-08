@@ -78,31 +78,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/controller/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="7" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="4122">
-              <folding />
+            <state line="147" column="9" selection-start="4999" selection-end="4999" vertical-scroll-proportion="0.48634812" vertical-offset="2361" max-vertical-offset="4950">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RadarSiteFactory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/model/RadarSiteFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="25" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="activity_about.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/res/layout/activity_about.xml">
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
           <provider editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
               <folding />
             </state>
           </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="30" selection-start="216" selection-end="216" vertical-scroll-proportion="0.12286689" vertical-offset="0" max-vertical-offset="774">
+            <state line="19" column="46" selection-start="710" selection-end="710" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774">
+              <folding>
+                <element signature="e#498#516#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="radar_sites.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/res/raw/radar_sites.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="480" column="6" selection-start="10398" selection-end="10398" vertical-scroll-proportion="-4.888889" vertical-offset="8508" max-vertical-offset="13446">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="territories.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/res/raw/territories.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="15" selection-start="575" selection-end="575" vertical-scroll-proportion="-1.3018868" vertical-offset="654" max-vertical-offset="1134">
               <folding />
             </state>
           </provider>
@@ -111,7 +144,7 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="39" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="324">
+            <state line="7" column="39" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
               <folding />
             </state>
           </provider>
@@ -119,23 +152,20 @@
       </file>
       <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/res/layout/activity_main.xml">
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
           <provider editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="radar_site_list_item.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/res/layout/radar_site_list_item.xml">
-          <provider editor-type-id="android-designer">
+          <provider selected="true" editor-type-id="android-designer">
             <state />
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RadarSite.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/model/RadarSite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="468">
+            <state line="16" column="9" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
               <folding />
             </state>
           </provider>
@@ -143,40 +173,13 @@
       </file>
       <file leaf-file-name="activity_radar_site.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/res/layout/activity_radar_site.xml">
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
           <provider editor-type-id="text-editor">
             <state line="17" column="21" selection-start="700" selection-end="700" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="1314">
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RadarSite.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/model/RadarSite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="1" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="288">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RadarSiteActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/controller/RadarSiteActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="26" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="1872">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AboutActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/controller/AboutActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="13" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="558">
-              <folding />
-            </state>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -250,21 +253,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/MobileDoppler/src/main/java/model/RadarSite.java" />
         <option value="$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/MainActivity.java" />
         <option value="$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/RadarSiteActivity.java" />
         <option value="$PROJECT_DIR$/MobileDoppler/src/main/res/radarSites.json" />
-        <option value="$PROJECT_DIR$/MobileDoppler/src/main/res/raw/radar_sites.json" />
-        <option value="$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/model/RadarSite.java" />
         <option value="$PROJECT_DIR$/MobileDoppler/src/main/res/menu/about.xml" />
         <option value="$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/controller/RadarSiteActivity.java" />
         <option value="$PROJECT_DIR$/MobileDoppler/src/main/res/layout/radar_site_layout.xml" />
         <option value="$PROJECT_DIR$/MobileDoppler/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/MobileDoppler/src/main/res/layout/activity_radar_site.xml" />
-        <option value="$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/controller/MainActivity.java" />
         <option value="$PROJECT_DIR$/MobileDoppler/src/main/res/layout/activity_about.xml" />
         <option value="$PROJECT_DIR$/MobileDoppler/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/MobileDoppler/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/MobileDoppler/src/main/res/raw/states.json" />
+        <option value="$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/model/RadarSiteFactory.java" />
+        <option value="$PROJECT_DIR$/MobileDoppler/src/main/res/raw/radar_sites.json" />
+        <option value="$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/model/RadarSite.java" />
+        <option value="$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/controller/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -414,6 +418,104 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MobileDoppler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="androidDoppler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MobileDoppler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MobileDoppler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="androidDoppler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MobileDoppler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobiledoppler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MobileDoppler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="androidDoppler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MobileDoppler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobiledoppler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -426,13 +528,13 @@
     <property name="recentsLimit" value="5" />
     <property name="ExportedApkPath" value="$PROJECT_DIR$/MobileDoppler/MobileDoppler.apk" />
     <property name="ExportedModule" value="MobileDoppler" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="2a6d2638" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="AndroidRunProguardForReleaseBuild" value="false" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
   </component>
   <component name="RecentsManager">
@@ -596,7 +698,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1060" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -607,20 +709,20 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298153" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33006537" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24919957" sideWeight="0.66993463" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24919957" sideWeight="0.66993463" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.6701847" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298153" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298153" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -686,20 +788,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/model/RadarSite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="288">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/controller/RadarSiteActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="26" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="1872">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/controller/AboutActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="13" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="558">
@@ -712,11 +800,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/res/raw/radar_sites.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="587" column="28" selection-start="11133" selection-end="11133" vertical-scroll-proportion="0.5490605" vertical-offset="10303" max-vertical-offset="10782" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/controller/RadarSiteActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="26" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="434" max-vertical-offset="1872">
@@ -725,40 +808,33 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/res/layout/radar_site_list_item.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="468">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/model/RadarSite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
-          <folding />
-        </state>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/res/layout/activity_radar_site.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/res/layout/activity_radar_site.xml">
       <provider editor-type-id="text-editor">
         <state line="17" column="21" selection-start="700" selection-end="700" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="1314">
           <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/res/menu/about.xml">
@@ -768,19 +844,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/controller/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="7" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="4122">
+    <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/res/layout/activity_about.xml">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="451">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/res/layout/activity_about.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="451">
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/controller/AboutActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
           <folding />
         </state>
       </provider>
@@ -794,15 +870,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="30" selection-start="216" selection-end="216" vertical-scroll-proportion="0.12286689" vertical-offset="0" max-vertical-offset="774">
+        <state line="19" column="46" selection-start="710" selection-end="710" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774">
+          <folding>
+            <element signature="e#498#516#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/model/RadarSiteFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="25" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/res/raw/territories.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="15" selection-start="575" selection-end="575" vertical-scroll-proportion="-1.3018868" vertical-offset="654" max-vertical-offset="1134">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/controller/AboutActivity.java">
+    <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/res/raw/radar_sites.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
+        <state line="480" column="6" selection-start="10398" selection-end="10398" vertical-scroll-proportion="-4.888889" vertical-offset="8508" max-vertical-offset="13446">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/model/RadarSite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="9" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/controller/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="147" column="9" selection-start="4999" selection-end="4999" vertical-scroll-proportion="0.48634812" vertical-offset="2361" max-vertical-offset="4950">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
