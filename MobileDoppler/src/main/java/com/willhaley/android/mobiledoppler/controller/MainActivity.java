@@ -22,6 +22,8 @@ import android.widget.TextView;
 import com.willhaley.android.mobiledoppler.R;
 import com.willhaley.android.mobiledoppler.model.RadarSite;
 import com.willhaley.android.mobiledoppler.model.RadarSiteFactory;
+import com.willhaley.android.mobiledoppler.model.RawResourceUnserializer;
+import com.willhaley.android.mobiledoppler.test.RadarSitesTest;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -48,7 +50,11 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
         context = this;
 
         loadRadarSites();
-        validateRadarSites(); //TODO this should probably be broken out to a unit test
+
+        //TODO Fix hacky test
+        RadarSitesTest test = new RadarSitesTest(this);
+        test.validateTerritories();
+        test.validateRadarSites(radarSites);
 
         radarSitesAdapter = new RadarSitesAdapter(radarSites);
         ListView listView = (ListView) findViewById(R.id.listView);
@@ -70,73 +76,15 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
     @Override
     public void afterTextChanged(Editable editable) { }
 
-    private String getJSONStringForResourceId(int resourceId) {
-        InputStream inputStream = getResources().openRawResource(resourceId);
-        BufferedReader streamReader = null;
-        try {
-            streamReader = new BufferedReader(new InputStreamReader(inputStream, "UTF-8"));
-        } catch (UnsupportedEncodingException exception) {
-
-        }
-        StringBuilder responseStringBuilder = new StringBuilder();
-
-        String inputString;
-        try {
-            while ((inputString = streamReader.readLine()) != null) {
-                responseStringBuilder.append(inputString);
-            };
-        } catch(Exception exception) {
-
-        }
-        return responseStringBuilder.toString();
-    }
-
     /**
-     * Ensure that all of the radar sites have required and valid data
-     * TODO this should be a test
+     * Load radar sites from JSON
+     * TODO do this async, no guarantee how long this will take.  Doing I/O on main thread
      */
-    private void validateRadarSites() {
-        String[] states = loadTerritories();
-        for(RadarSite radarSite : radarSites) {
-            System.out.println(radarSite.area);
-            if(radarSite.area == null) {
-                Log.e("Error", "Area missing");
-            }
-            if(radarSite.siteId == null) {
-                Log.e("Error", "site id missing");
-            }
-            if(radarSite.territory == null) {
-                Log.e("Error", "Territory missing");
-            }
-            int index = java.util.Arrays.asList(states).indexOf(radarSite.territory);
-            if(index < 0) {
-                Log.e("Error", "Not a valid territory");
-            }
-        }
-    }
-
-    private String[] loadTerritories() {
-        JSONArray jsonTerritories = null; //TODO Am I consistent in naming?  jsonVar or varJSON ?
-        try {
-            jsonTerritories = new JSONArray(getJSONStringForResourceId(R.raw.territories));
-        } catch(JSONException exception) {
-            exception.printStackTrace();
-        }
-        String[] states = new String[jsonTerritories.length()];
-        for(int index = 0; index < jsonTerritories.length(); index++) {
-            try {
-                states[index] = jsonTerritories.getString(index);
-            } catch (JSONException e) {
-                e.printStackTrace();
-            }
-        }
-        return states;
-    }
-
     private void loadRadarSites() {
         JSONArray jsonRadarSites = null;
         try {
-            jsonRadarSites = new JSONArray(getJSONStringForResourceId(R.raw.radar_sites));
+            InputStream inputStream = getResources().openRawResource(R.raw.radar_sites);
+            jsonRadarSites = new JSONArray(RawResourceUnserializer.getJSONStringForInputStream(inputStream));
         } catch(JSONException exception) {
             exception.printStackTrace();
         }
