@@ -2,7 +2,7 @@
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
 1375367860000 798 d90ad2298c5d3523e39c897f80f3f3f061e32600 /home/will/Workspace/androidDoppler/MobileDoppler/src/main/res/layout/activity_about.xml
-1375367860000 2941 598825f52f4731fb1dbd6bc9b33827fced4e494d /home/will/Workspace/androidDoppler/MobileDoppler/src/main/res/layout/activity_radar_site.xml
+1376253488000 3340 d5ec0158c1a75b5f3b6368e7a23ddfb3e843f087 /home/will/Workspace/androidDoppler/MobileDoppler/src/main/res/layout/activity_radar_site.xml
 1375367860000 2731 db6b772439dc8f2c9dd6b6e2115117f8cb22cd58 /home/will/Workspace/androidDoppler/MobileDoppler/src/main/res/drawable-mdpi/ic_launcher.png
 1375367860000 324 aa1f5f1723de9aee2669dc44a26fbc0ce776d35f /home/will/Workspace/androidDoppler/MobileDoppler/src/main/res/values-v11/styles.xml
 1375368015000 711 468bcd2c7fc34a616b89763dd724e13f9d245afc /home/will/Workspace/androidDoppler/MobileDoppler/src/main/res/values/strings.xml
