@@ -6,6 +6,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import android.view.View;
 import android.widget.ImageView;
 
 import com.willhaley.android.mobiledoppler.R;
@@ -36,6 +37,7 @@ public class RadarSiteActivity extends Activity {
     }
 
     private void loadImagesForSiteId(String siteId) {
+        // No guarantee regarding what order these image will load
         try {
             // Topography
             topographyURL = new URL(TOPOGRAPHY_PATTERN.replace("SITE", siteId));
@@ -93,6 +95,8 @@ public class RadarSiteActivity extends Activity {
                 return;
             }
             imageView.setImageBitmap(bitmap);
+            // Once any image has loaded, hide the progress bar
+            findViewById(R.id.progressBar).setVisibility(View.INVISIBLE);
         }
     }
 }
