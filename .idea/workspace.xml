@@ -78,102 +78,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/controller/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="0" selection-start="1633" selection-end="1633" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="3402">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RadarSiteActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/controller/RadarSiteActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="26" selection-start="1792" selection-end="1792" vertical-scroll-proportion="0.42060086" vertical-offset="614" max-vertical-offset="1944">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RawResourceUnserializer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/model/RawResourceUnserializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="3" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="666">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_about.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/res/layout/activity_about.xml">
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="30" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="774">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RadarSitesTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/test/RadarSitesTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="40" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="1566">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="39" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="324">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/res/layout/activity_main.xml">
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_radar_site.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/res/layout/activity_radar_site.xml">
-          <provider editor-type-id="text-editor">
-            <state line="17" column="21" selection-start="700" selection-end="700" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="1458">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RadarSite.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/model/RadarSite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="19" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+            <state line="4" column="30" selection-start="216" selection-end="216" vertical-scroll-proportion="0.15031315" vertical-offset="0" max-vertical-offset="774">
               <folding />
             </state>
           </provider>
@@ -258,13 +166,13 @@
         <option value="$PROJECT_DIR$/MobileDoppler/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/MobileDoppler/src/main/res/layout/activity_about.xml" />
         <option value="$PROJECT_DIR$/MobileDoppler/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/MobileDoppler/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/model/RawResourceUnserializer.java" />
         <option value="$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/test/RadarSitesTest.java" />
         <option value="$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/controller/MainActivity.java" />
         <option value="$PROJECT_DIR$/MobileDoppler/src/main/java/view/EditTextClearable.java" />
         <option value="$PROJECT_DIR$/MobileDoppler/src/main/res/layout/activity_radar_site.xml" />
         <option value="$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/controller/RadarSiteActivity.java" />
+        <option value="$PROJECT_DIR$/MobileDoppler/src/main/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -299,6 +207,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -547,8 +457,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -562,13 +470,14 @@
     <property name="ExportedApkPath" value="$PROJECT_DIR$/MobileDoppler/MobileDoppler.apk" />
     <property name="ExportedModule" value="MobileDoppler" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="2a6d2638" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="AndroidRunProguardForReleaseBuild" value="false" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="API17" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
   </component>
   <component name="RecentsManager">
@@ -777,12 +686,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24892396" sideWeight="0.6701847" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897604" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.6701847" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298153" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -847,6 +756,13 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/model/RadarSite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="19" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="468">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/ic_launcher-web.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -894,28 +810,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="39" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="30" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774">
+        <state line="7" column="39" selection-start="315" selection-end="315" vertical-scroll-proportion="0.27038628" vertical-offset="0" max-vertical-offset="466">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/model/RawResourceUnserializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="3" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="666">
+        <state line="9" column="3" selection-start="228" selection-end="228" vertical-scroll-proportion="0.03757829" vertical-offset="144" max-vertical-offset="666">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/test/RadarSitesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="40" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="1566">
+        <state line="35" column="40" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.03757829" vertical-offset="612" max-vertical-offset="1566">
           <folding />
         </state>
       </provider>
@@ -923,13 +832,6 @@
     <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/controller/AboutActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="13" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/controller/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="0" selection-start="1633" selection-end="1633" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="3402">
           <folding />
         </state>
       </provider>
@@ -946,7 +848,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/model/RadarSite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="19" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+        <state line="18" column="19" selection-start="463" selection-end="463" vertical-scroll-proportion="0.6764092" vertical-offset="0" max-vertical-offset="479">
           <folding />
         </state>
       </provider>
@@ -957,6 +859,20 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/controller/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="0" selection-start="1633" selection-end="1633" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="3402">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="30" selection-start="216" selection-end="216" vertical-scroll-proportion="0.15031315" vertical-offset="0" max-vertical-offset="774">
+          <folding />
         </state>
       </provider>
     </entry>
