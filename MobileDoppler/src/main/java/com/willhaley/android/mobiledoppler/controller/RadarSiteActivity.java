@@ -1,16 +1,18 @@
 package com.willhaley.android.mobiledoppler.controller;
 
+import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.app.Activity;
-import android.view.Menu;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 
 import com.willhaley.android.mobiledoppler.R;
 import com.willhaley.android.mobiledoppler.model.RadarSite;
+import com.willhaley.android.mobiledoppler.view.ScrollView;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -27,13 +29,22 @@ public class RadarSiteActivity extends Activity {
     private static final String COUNTY_PATTERN = "http://radar.weather.gov/Overlays/County/Short/SITE_County_Short.gif";
     private static final String CITY_PATTERN = "http://radar.weather.gov/Overlays/Cities/Short/SITE_City_Short.gif";
 
+    private ScrollView scrollView;
+    private Context context;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_radar_site);
 
+        context = this;
+
         RadarSite radarSite = (RadarSite) getIntent().getSerializableExtra("RadarSite");
         loadImagesForSiteId(radarSite.siteId);
+
+        RelativeLayout r = (RelativeLayout) findViewById(R.id.radarSiteLayout);
+        scrollView = new ScrollView(this);
+        r.addView(scrollView);
     }
 
     private void loadImagesForSiteId(String siteId) {
@@ -94,7 +105,12 @@ public class RadarSiteActivity extends Activity {
             if(imageView == null) {
                 return;
             }
-            imageView.setImageBitmap(bitmap);
+            System.out.println("BMP Size: " + bitmap.getWidth() + " " + bitmap.getHeight());
+            //imageView.setImageBitmap(bitmap);
+            ImageView imageView1 = new ImageView(context);
+            imageView1.setImageBitmap(bitmap);
+            scrollView.addView(imageView1);
+            scrollView.printShit();
             // Once any image has loaded, hide the progress bar
             findViewById(R.id.progressBar).setVisibility(View.INVISIBLE);
         }
