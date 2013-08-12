@@ -82,9 +82,7 @@
         <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/controller/RadarSiteActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="112" column="35" selection-start="4156" selection-end="4156" vertical-scroll-proportion="0.0" vertical-offset="1766" max-vertical-offset="2232">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -92,7 +90,7 @@
       <file leaf-file-name="ScrollView.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/view/ScrollView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="870" selection-end="1011" vertical-scroll-proportion="0.40987125" vertical-offset="331" max-vertical-offset="1134">
+            <state line="10" column="0" selection-start="298" selection-end="298" vertical-scroll-proportion="0.38197425" vertical-offset="2" max-vertical-offset="1134">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -191,8 +189,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1920" />
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="width" value="1450" />
+    <option name="height" value="909" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -220,8 +218,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -504,6 +500,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -523,8 +521,8 @@
     <property name="AndroidRunProguardForReleaseBuild" value="false" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="API17" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
   </component>
   <component name="RecentsManager">
@@ -712,13 +710,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
+    <frame x="1920" y="0" width="1450" height="909" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.6701847" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298153" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -737,6 +734,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.6701847" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298153" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -889,9 +887,7 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/widget/ScrollView.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="0" selection-start="4653" selection-end="4653" vertical-scroll-proportion="0.76824033" vertical-offset="1460" max-vertical-offset="1926">
-          <folding />
-        </state>
+        <state line="102" column="0" selection-start="4653" selection-end="4653" vertical-scroll-proportion="0.76824033" vertical-offset="1460" max-vertical-offset="1926" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/res/layout/activity_radar_site.xml">
@@ -906,23 +902,19 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/widget/HorizontalScrollView.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="0" selection-start="4630" selection-end="4630" vertical-scroll-proportion="0.76824033" vertical-offset="1424" max-vertical-offset="1890">
-          <folding />
-        </state>
+        <state line="100" column="0" selection-start="4630" selection-end="4630" vertical-scroll-proportion="0.76824033" vertical-offset="1424" max-vertical-offset="1890" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/controller/RadarSiteActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="112" column="35" selection-start="4156" selection-end="4156" vertical-scroll-proportion="0.0" vertical-offset="1730" max-vertical-offset="2232">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MobileDoppler/src/main/java/com/willhaley/android/mobiledoppler/view/ScrollView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="870" selection-end="1011" vertical-scroll-proportion="0.40987125" vertical-offset="331" max-vertical-offset="1134">
+        <state line="10" column="0" selection-start="298" selection-end="298" vertical-scroll-proportion="0.38197425" vertical-offset="2" max-vertical-offset="1134">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
