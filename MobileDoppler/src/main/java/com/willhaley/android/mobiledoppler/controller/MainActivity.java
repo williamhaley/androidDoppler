@@ -51,11 +51,6 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
 
         loadRadarSites();
 
-        //TODO Fix hacky test
-        RadarSitesTest test = new RadarSitesTest(this);
-        test.validateTerritories();
-        test.validateRadarSites(radarSites);
-
         radarSitesAdapter = new RadarSitesAdapter(radarSites);
         ListView listView = (ListView) findViewById(R.id.listView);
         listView.setAdapter(radarSitesAdapter);
