@@ -26,42 +26,6 @@
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent">
 
-                <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:id="@+id/topographyImageView"
-                        android:layout_centerVertical="true"
-                        android:layout_centerHorizontal="true"
-                        android:adjustViewBounds="true"
-                        android:scaleType="center"/>
-
-                <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:id="@+id/countyImageView"
-                        android:layout_centerVertical="true"
-                        android:layout_centerHorizontal="true"
-                        android:adjustViewBounds="true"
-                        android:scaleType="center"/>
-
-                <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:id="@+id/weatherImageView"
-                        android:layout_centerVertical="true"
-                        android:layout_centerHorizontal="true"
-                        android:adjustViewBounds="true"
-                        android:scaleType="center"/>
-
-                <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:id="@+id/cityImageView"
-                        android:focusableInTouchMode="false"
-                        android:adjustViewBounds="true"
-                        android:scaleType="center"
-                        android:layout_centerInParent="true"/>
-
                 <ProgressBar
                         style="?android:attr/progressBarStyleLarge"
                         android:layout_width="wrap_content"
