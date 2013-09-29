@@ -1,0 +1,10 @@
+version 5
+* Better image scaling/panning (kinda)
+
+version 4
+* Bug fix
+
+version 3
+* Full state name searches
+* Loading animation when navigating to details
+* sort alphabetically by display text
