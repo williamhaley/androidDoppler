@@ -1,5 +1,4 @@
 # androidDoppler
-====================
 Android Doppler Radar
 # TODO
 * Search by: Last Location/Current Location/Radar Sites
