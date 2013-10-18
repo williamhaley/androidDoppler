@@ -59,6 +59,7 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
 		((EditText) findViewById(R.id.editText)).addTextChangedListener(this);
 
 		Application.getGaTracker().set(Fields.SCREEN_NAME, SCREEN_NAME);
+		((TextView)findViewById(R.id.title)).setText("Radar Sites");
 	}
 
 	@Override

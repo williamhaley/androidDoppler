@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- base premise (Rectangle that's rotated) http://looksok.wordpress.com/2013/08/24/android-triangle-arrow-defined-as-an-xml-shape/ -->
+    <!-- item offsets to "size" it http://stackoverflow.com/a/10689496 (user:rekaszeru) - http://stackoverflow.com/questions/10689412/drawing-multiple-rectangles-in-an-xml-drawable -->
+    <item
+        android:bottom="0dp"
+        android:left="0dp"
+        android:right="0dp"
+        android:top="0dp">
+        <!-- pivotX and Y control the pivot point, so 50% for both should mean it pivots on the center of the rect -->
+        <rotate
+            android:fromDegrees="0"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:toDegrees="90" >
+            <shape android:shape="rectangle" >
+                <stroke
+                    android:width="10dp"
+                    android:color="#000000FF" />
+
+                <solid android:color="#669911" />
+
+            </shape>
+        </rotate>
+    </item>
+
+</layer-list>

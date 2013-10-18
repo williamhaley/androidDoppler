@@ -3,7 +3,7 @@
 
     <string name="app_name">Doppler Radar</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="area_placeholder">Area</string>
     <string name="title_activity_details">DetailsActivity</string>
     <string name="title_activity_radar_site">Radar Site</string>
     <string name="title_activity_about">About</string>

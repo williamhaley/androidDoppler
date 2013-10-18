@@ -2,7 +2,7 @@ package com.willhaley.android.mobiledoppler.controller;
 
 import android.os.Bundle;
 import android.app.Activity;
-import android.view.Menu;
+import android.widget.TextView;
 
 import com.google.analytics.tracking.android.Fields;
 import com.google.analytics.tracking.android.MapBuilder;
@@ -18,19 +18,13 @@ public class AboutActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_about);
 		Application.getGaTracker().set(Fields.SCREEN_NAME, SCREEN_NAME);
+		((TextView)findViewById(R.id.title)).setText("About");
 	}
 
 	@Override
 	public void onStart() {
 		super.onStart();
 		Application.getGaTracker().send(MapBuilder.createAppView().build());
-	}
-
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.about, menu);
-		return true;
 	}
 
 }

@@ -12,8 +12,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
-import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 import com.google.analytics.tracking.android.Fields;
 import com.google.analytics.tracking.android.MapBuilder;
@@ -24,6 +25,7 @@ import com.willhaley.android.mobiledoppler.view.ScrollView;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.ArrayList;
 
 public class RadarSiteActivity extends Activity {
 
@@ -31,6 +33,8 @@ public class RadarSiteActivity extends Activity {
 	private URL weatherURL;
 	private URL countiesURL;
 	private URL citiesURL;
+
+	private String siteId;
 
 	private static final String TOPOGRAPHY_PATTERN = "http://radar.weather.gov/Overlays/Topo/Short/SITE_Topo_Short.jpg";
 	private static final String WEATHER_PATTERN = "http://radar.weather.gov/RadarImg/N0R/SITE_N0R_0.gif";
@@ -45,6 +49,8 @@ public class RadarSiteActivity extends Activity {
 	private ScrollView scrollView;
 	private Context context;
 
+	private ArrayList<ImageView> imageViews;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -60,12 +66,14 @@ public class RadarSiteActivity extends Activity {
 				(int)(IMAGE_HEIGHT * IMAGE_SCALE));
 
 		RadarSite radarSite = (RadarSite) getIntent().getSerializableExtra("RadarSite");
-		loadImagesForSiteId(radarSite.siteId);
+		siteId = radarSite.siteId;
+		
+		imageViews = new ArrayList<ImageView>();
+		loadImages();
 
-		ViewGroup rootViewGroup = (RelativeLayout) findViewById(R.id.radarSiteLayout);
-		scrollView = new ScrollView(this);
-		rootViewGroup.addView(scrollView);
+		scrollView = (ScrollView)findViewById(R.id.scrollView);
 		Application.getGaTracker().set(Fields.SCREEN_NAME, String.format("%s/%s", "Radar Site", radarSite.siteId));
+		((TextView)findViewById(R.id.title)).setText(radarSite.area);
 	}
 
 	@Override
@@ -74,7 +82,7 @@ public class RadarSiteActivity extends Activity {
 		Application.getGaTracker().send(MapBuilder.createAppView().build());
 	}
 
-	private void loadImagesForSiteId(String siteId) {
+	private void loadImages() {
 		// No guarantee regarding what order these image will load
 		try {
 			// Topography
@@ -135,8 +143,11 @@ public class RadarSiteActivity extends Activity {
 			imageView.setScaleType(ImageView.ScaleType.FIT_CENTER);
 			imageView.setImageBitmap(bitmap);
 			scrollView.addView(imageView);
+			imageViews.add(imageView);
 			// Once any image has loaded, hide the progress bar
 			findViewById(R.id.progressBar).setVisibility(View.INVISIBLE);
+			// And stop the animation on the refresh button if it's running
+			findViewById(R.id.refresh).clearAnimation();
 		}
 	}
 
@@ -151,5 +162,15 @@ public class RadarSiteActivity extends Activity {
 		Intent intent = new Intent(this, AboutActivity.class);
 		startActivity(intent);
 		return super.onMenuItemSelected(featureId, item);
+	}
+
+	public void refresh(View view) {
+		for(ImageView imageView : imageViews) {
+			((ViewGroup)imageView.getParent()).removeView(imageView);
+		}
+		imageViews.clear();
+		view.startAnimation(AnimationUtils.loadAnimation(this, R.anim.rotate_indefinitely));
+		findViewById(R.id.progressBar).setVisibility(View.VISIBLE);
+		loadImages();
 	}
 }
